@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        h1 {
+            box-shadow: inset 3px 1px 14px 6px rgba(0, 0, 0, 0.366);
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*esse e pra criar sombras*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+           
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+           
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px; /*aqui vai fazer alteração 20px para borda esquerda em cima e direita embaixo iguais. 40px pra borda direita em cima e esquerda embaixo iguais */
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+
+        article > aside {
+            background-color: rgb(169, 169, 169);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p { /* Aqui o footer ficou com uma linha muito grossa, entendeu que a linha era uma parágrafo. Então esse comando é pra tirar a margem desse parágrafo que foi automático e no geral ficar menor o tamanho da minha caixa*/
+            margin: 0px;
+        }
+
+       div#bola { /*aqui foi só um exercício para mostrar que a bordar pode virar uma bola*/
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+       } 
+    </style>
+</head>
+<body>
+    <header> <!-- cabeçalho -->
+        <h1>Meu site</h1>
+        <nav> <!-- nav é um menu de navegação -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+   
+    <main> <!-- conteudo principal -->
+        <section id="assuntos"> <!-- é uma seção, nem o Ais sabe explicar direito -->
+            <p>Esportes Política Tecnologia</p>
+        </section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime iure inventore, eligendi, numquam ab consequatur exercitationem obcaecati sint, porro ipsam ducimus illo. Magni facilis eius non provident enim tenetur.</p>
+                <aside> <!-- conteudo tipo a mais -->
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        <section>
+            
+
+        </section>
+    </main>
+
+    <footer> <!-- rodapé -->
+        <p>Desenvolvido por Fernanda</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
