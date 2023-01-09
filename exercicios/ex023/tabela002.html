@@ -21,9 +21,26 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
 
         td.num {
@@ -45,10 +62,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px">População</th>
             </tr>
         </thead>
         <tbody>
@@ -84,15 +102,45 @@
                 <td>EX</td>
                 <td class="num">00 00 00</td>
             </tr>
-
+            <tr>
+                <td>EX</td>
+                <td class="num">00 00 00</td>
+            </tr>
+            <tr>
+                <td>EX</td>
+                <td class="num">00 00 00</td>
+            </tr>
+            <tr>
+                <td>EX</td>
+                <td class="num">00 00 00</td>
+            </tr>
+            <tr>
+                <td>EX</td>
+                <td class="num">00 00 00</td>
+            </tr>
+            <tr>
+                <td>EX</td>
+                <td class="num">00 00 00</td>
+            </tr>
 
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum tenetur provident praesentium nostrum quis eveniet vitae excepturi, perspiciatis, pariatur velit voluptas aliquam. Quia nostrum veniam quisquam, sequi voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi, sunt totam saepe reprehenderit doloribus distinctio aperiam consequatur veniam odio quisquam neque at voluptatibus rerum! Cumque iste voluptatum nemo! Officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eveniet accusantium nostrum similique modi saepe blanditiis nihil fuga vitae fugiat, delectus aperiam eos eligendi commodi recusandae iusto, soluta repellendus pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus, exercitationem quos veniam voluptates adipisci voluptas minima vitae eveniet. Voluptatem voluptatum et quos aperiam ducimus enim maiores nesciunt voluptas aut.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum tenetur provident praesentium nostrum quis eveniet vitae excepturi, perspiciatis, pariatur velit voluptas aliquam. Quia nostrum veniam quisquam, sequi voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi, sunt totam saepe reprehenderit doloribus distinctio aperiam consequatur veniam odio quisquam neque at voluptatibus rerum! Cumque iste voluptatum nemo! Officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eveniet accusantium nostrum similique modi saepe blanditiis nihil fuga vitae fugiat, delectus aperiam eos eligendi commodi recusandae iusto, soluta repellendus pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus, exercitationem quos veniam voluptates adipisci voluptas minima vitae eveniet. Voluptatem voluptatum et quos aperiam ducimus enim maiores nesciunt voluptas aut.</p>
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum tenetur provident praesentium nostrum quis eveniet vitae excepturi, perspiciatis, pariatur velit voluptas aliquam. Quia nostrum veniam quisquam, sequi voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi, sunt totam saepe reprehenderit doloribus distinctio aperiam consequatur veniam odio quisquam neque at voluptatibus rerum! Cumque iste voluptatum nemo! Officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eveniet accusantium nostrum similique modi saepe blanditiis nihil fuga vitae fugiat, delectus aperiam eos eligendi commodi recusandae iusto, soluta repellendus pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus, exercitationem quos veniam voluptates adipisci voluptas minima vitae eveniet. Voluptatem voluptatum et quos aperiam ducimus enim maiores nesciunt voluptas aut.</p>
+
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum tenetur provident praesentium nostrum quis eveniet vitae excepturi, perspiciatis, pariatur velit voluptas aliquam. Quia nostrum veniam quisquam, sequi voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi, sunt totam saepe reprehenderit doloribus distinctio aperiam consequatur veniam odio quisquam neque at voluptatibus rerum! Cumque iste voluptatum nemo! Officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eveniet accusantium nostrum similique modi saepe blanditiis nihil fuga vitae fugiat, delectus aperiam eos eligendi commodi recusandae iusto, soluta repellendus pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus, exercitationem quos veniam voluptates adipisci voluptas minima vitae eveniet. Voluptatem voluptatum et quos aperiam ducimus enim maiores nesciunt voluptas aut.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, harum tenetur provident praesentium nostrum quis eveniet vitae excepturi, perspiciatis, pariatur velit voluptas aliquam. Quia nostrum veniam quisquam, sequi voluptatem aperiam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi, sunt totam saepe reprehenderit doloribus distinctio aperiam consequatur veniam odio quisquam neque at voluptatibus rerum! Cumque iste voluptatum nemo! Officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente eveniet accusantium nostrum similique modi saepe blanditiis nihil fuga vitae fugiat, delectus aperiam eos eligendi commodi recusandae iusto, soluta repellendus pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum accusamus, exercitationem quos veniam voluptates adipisci voluptas minima vitae eveniet. Voluptatem voluptatum et quos aperiam ducimus enim maiores nesciunt voluptas aut.</p>
 </body>
 </html>
