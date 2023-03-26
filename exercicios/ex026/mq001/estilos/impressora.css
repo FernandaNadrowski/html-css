@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* Estilo para impressoras */
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em; /* tamanho da fonte */
+    line-height: 1.5em; /* espaçamento entre linhas */
+}
+
+menu {
+    display: none; /* Aqui é para tirar o menu pq não é nessessário imprimir*/
+}
+
+article {
+    width: 100%; /* lá na tela o artigo fica menor para ler mais fácil, mas para imprimir fica tamanho normal */
+}
+
+article::after {
+    content: 'Esse artigo foi impresso através do site www.cursoemvideo.com'; /* esse é para aparecer apenas na impressão, por isso usa ::after sendo então para aparecer após o artigo*/
+}
