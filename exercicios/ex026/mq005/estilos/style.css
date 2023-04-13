@@ -12,7 +12,7 @@ body, html {
 }
 
 header {
-    background-color: rgb(144, 144, 144);
+    background-color: rgb(148, 148, 148);
 }
 
 header > h1 {
@@ -21,7 +21,7 @@ header > h1 {
 }
 
 span#burger {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(48, 48, 48);
     color: white;
     display: block;
     text-align: center;
